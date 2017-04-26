@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scale=no">
+    <title>Hoja de Vida Digital</title>
+  </head>
+  <body>
+    <header>
+      <svg width="150px" height="150px">
+        <image xlink:href="img/logo.svg" width="150px" height="150px"/>
+      </svg>
+      <h1>Curriculum Vitae</h1>
+      <h2>Maximiliano Exequiel Reyes</h2>
+    </header>
+    <svg width="100%" height="5px">
+      <line x1="0" y1="0" x2="100%" y2="0" stroke="red" stroke-width="5" />
+    </svg>
+    <nav>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="educacion.html">Educación</a></li>
+        <li><a href="experiencia.html">Experiencia</a></li>
+      </ul>
+    </nav><br>
+    <section>
+      <article>
+        <h3>Educación</h3>
+        <table border="1">
+          <thead>
+            <tr>
+              <th>Año</th>
+              <th>Institución</th>
+              <th>Lugar</th>
+              <th>¿Culminó?</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>2007</td>
+              <td>Escuela Técnica Ing. Eduardo Latzina n°35</td>
+              <td>Buenos Aires, CABA</td>
+              <td>Si</td>
+            </tr>
+            <tr>
+              <td>2014</td>
+              <td>Educacion IT - Java Standard Programming </td>
+              <td>Buenos Aires, CABA</td>
+              <td>Si</td>
+            </tr>
+          </tbody>
+        </table>
+      </article>
+      <svg width="100%" height="1px">
+        <line x1="0" y1="0" x2="100%" y2="0" stroke="red" stroke-width="1" />
+      </svg>
+      <article>
+        <h4>Agregar Estudios</h4>
+        <form>
+          <p>
+            <label for="anio">Año:</label>
+            <select name="anio" id="anio" required>
+              <option value="2010">2010</option>
+              <option value="2011">2011</option>
+              <option value="2012">2012</option>
+              <option value="2013">2013</option>
+              <option value="2014">2014</option>
+              <option value="2015">2015</option>
+              <option value="2016">2016</option>
+              <option value="2017">2017</option>
+            </select>
+          </p>
+          <p>
+            <label for="institucion">Institución:</label>
+            <input type="text" name="institucion" id="institucion" required>
+          </p>
+          <p>
+            <label for="lugar">Lugar:</label>
+            <input type="text" name="lugar" id="lugar" required>
+          </p>
+          <p>
+            <label for="culmino">¿Culminó?</label>
+            <input type="radio" name="radioculmino" value="si" id="culmino"> Si
+            <input type="radio" name="radioculmino" value="no" id="culmino"> No
+          </p>
+          <input type="submit" name="enviar" value="Enviar">
+        </form>
+      </article>
+    </section>
+    <svg width="100%" height="5px">
+      <line x1="0" y1="0" x2="100%" y2="0" stroke="red" stroke-width="5" />
+    </svg>
+    <footer>
+      <p><em>@Derechos Reservados</em></p>
+      <ul>
+        <li><strong>Email: </strong> maxi_reyes7@hotmail.com</li>
+        <li><strong>Teléfono: </strong> (054)11-3386-6579</li>
+        <li><strong>Linkedin: </strong> <a href="https://www.linkedin.com/in/maximiliano-exequiel-reyes-227b5026" target="_blank">Maximiliano Reyes</a></li>
+        <li><strong>Dirección: </strong> Alejandro M. Cervantes 2731, CABA</li>
+      </ul>
+    </footer>
+  </body>
+</html>
